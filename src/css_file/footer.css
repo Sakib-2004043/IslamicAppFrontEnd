@@ -1,0 +1,44 @@
+.footer-container{
+  color: #cbfefa;
+
+  margin-top: 50px;
+
+  text-align: center;
+  width: 100%;
+
+  
+
+
+
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding: 20px;
+  border-top: white solid 2px;
+}
+.first-grid{
+  grid-column: 1;
+  text-align: left;
+}
+.second-grid{
+  grid-column: 2;
+  text-align: left;
+}
+.third-grid{
+  grid-column: 3;
+  text-align: left;
+}
+.footer-logo{
+  width: 30px;
+  margin: 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.link-holder{
+  color: rgb(144, 238, 225);
+}

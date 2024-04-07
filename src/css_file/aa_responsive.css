@@ -1,0 +1,47 @@
+@media screen and (max-width: 1768px) {
+  body {
+      font-size: 20px; /* Decrease font size for smaller screens */
+  }
+  .home-logo{
+    height: 50px;
+    width: auto;
+    margin: 10px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 880px) {
+  body {
+      font-size: 10px; /* Further decrease font size for very small screens */
+  }
+  .home-logo{
+    height: 30px;
+    width: auto;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+      font-size: 6px; /* Further decrease font size for very small screens */
+  }
+  .home-logo{
+    height: 15px;
+    width: auto;
+    margin: 2px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+      font-size: 2px; /* Further decrease font size for very small screens */
+  }
+  .home-logo{
+    height: 10px;
+    width: auto;
+    margin: 0px;
+  }
+}
+
+
+
+

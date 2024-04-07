@@ -1,0 +1,59 @@
+.add-jikir-main{
+  background-image: url('/images/regBG_2.png');
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: lightgreen solid 5px;
+  border-radius: 10px;
+
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+
+  margin: 20px;
+
+  font-weight: bold;
+
+}
+
+.inner-div{
+  backdrop-filter: blur(20px);
+  color:blanchedalmond;
+
+  text-align: left;
+  border: rgb(154, 182, 15) 5px solid;
+  border-radius: 20px;
+
+  padding: 30px;
+  margin: 20px;
+}
+
+.cross{
+  text-align: right;
+  cursor: pointer;
+}
+
+.image{
+  background-color: yellow;
+  border: red solid 2px;
+  border-radius: 2px;
+}
+
+.add-tasbih-button{
+  background-color: lightgreen;
+  font-weight: bold;
+  color: darkblue;
+  border: none;
+  border-radius: 10px;
+
+  height: 30px;
+  width: 150px;
+
+  cursor: pointer; 
+  
+  transition: background-color 0.6s ease;
+}
+.add-tasbih-button:hover{
+  background-color: rgb(7, 204, 7);
+}

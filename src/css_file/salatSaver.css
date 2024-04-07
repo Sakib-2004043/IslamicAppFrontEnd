@@ -1,0 +1,117 @@
+.form-container{
+  border: 5px solid darkgray;
+  background-color: darkgreen;
+  padding: 20px;
+
+  text-align: left;
+  font-weight: normal;
+  padding-left: 50px;
+
+}
+.salat-div{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  font-size: 15px;
+
+  
+  padding: 25px;
+  margin-top: 0px;
+}
+
+.salat-span{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main-check-box{
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+  
+}
+.additional-check-box{
+  width: 12px;
+  height: 12px; 
+}
+.form-table{
+  margin-bottom: 20px;
+  border: 2px solid rgb(172, 239, 72);
+}
+.form-table td,tr{
+  padding: 10px;
+  border: 1px solid greenyellow;
+}
+
+.salat-table{
+  text-align: center;
+  
+  border-collapse: collapse;
+  margin-right: 60px;
+  padding: 5px;
+
+  border: 5px solid rgb(110, 199, 96);
+
+  width: 100%;
+
+  
+}
+.salat-table th{
+  background-color: darkgreen;
+  border: 2px solid darkgoldenrod;
+
+  font-weight: bold;
+
+  color: blanchedalmond;
+  padding: 2px;
+}
+.salat-table td{
+  border: 1px solid darkgoldenrod;
+
+  font-weight: normal;
+  height: 50px;
+  cursor: pointer;
+}
+.salat-table th{
+  border: 2px solid darkgoldenrod;
+}
+
+.date-input{
+  height: 20px;
+  width: 130px;
+
+  border: 2px salmon solid;
+  border-radius: 5px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  background-color: darkcyan;
+  color: aqua;
+
+}
+
+.alert-show{
+  background-color: aquamarine;
+  color: rgb(244, 28, 28);
+  padding: 5px;
+  margin-top: 10px;
+
+  width: 210px;
+
+  text-align: right;
+
+  border: none;
+  border-radius: 5px;
+
+  font-weight: bold;
+}
+
+.message-para{
+  font-weight: bold;
+  font-size: 20px;
+  color:aqua;
+}
