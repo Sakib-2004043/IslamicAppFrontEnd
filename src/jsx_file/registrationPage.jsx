@@ -20,7 +20,6 @@ function RegistrationPage() {
       const response = await registrationService.checkUser({userName});
       console.log(response.data);
       return response.data.success;
-
     } 
     catch (error) {
       console.log("Error Occured : ",error.message);
@@ -35,7 +34,7 @@ function RegistrationPage() {
     const password = document.getElementById('password').value;
     const confirmPassword = document.getElementById('confirmPassword').value;
     if(password !== confirmPassword){
-      console.log("Confrim Password Doesn't Match");
+      setConfirmPasswordMessage("Confirmed Password Doesn't Match");
     }
     else if (!userName){
       setUserNameMessage("Enter User-Name");
